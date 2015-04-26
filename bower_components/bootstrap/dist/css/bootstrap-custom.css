@@ -1226,6 +1226,76 @@ a:visited,
 .sidenav .lst3 .active:before {
   height: 8px;
 }
+.sidenav_index {
+  position: relative;
+  z-index: 1;
+  padding-top: 16px;
+  padding-bottom: 22px;
+}
+.sidenav_index ul,
+.sidenav_index li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidenav_index li {
+  position: relative;
+  font-size: 0.875em;
+}
+.sidenav_index li a {
+  display: block;
+}
+.sidenav_index li:hover:before,
+.sidenav_index .active:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  width: 4px;
+  height: 5px;
+  font-size: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.sidenav_index .lst1 .item {
+  padding-left: 22px;
+}
+.sidenav_index .lst1 .lk {
+  margin-top: 1px;
+}
+.sidenav_index .lst1 .lk:link,
+.sidenav_index .lst1 .lk:hover,
+.sidenav_index .lst1 .lk:active,
+.sidenav_index .lst1 .lk:visited {
+  color: #ffffff;
+}
+.sidenav_index .lst2 {
+  padding: 10px 0;
+}
+.sidenav_index .lst2 li {
+  width: 40%;
+  float: left;
+  padding-left: 20px;
+  margin-top: 6px;
+  font-size: 0.75em;
+}
+.sidenav_index .lst2 li:hover:before,
+.sidenav_index .lst2 .active:before {
+  top: 5px;
+  background-color: #abbdd0;
+}
+.sidenav_index .lst2 a:link,
+.sidenav_index .lst2 a:hover,
+.sidenav_index .lst2 a:active,
+.sidenav_index .lst2 a:visited {
+  color: #a3aec0;
+}
+.sidenav_index .lst2 .active a:link,
+.sidenav_index .lst2 .active a:hover,
+.sidenav_index .lst2 .active a:active,
+.sidenav_index .lst2 .active a:visited {
+  color: #a3aec0;
+}
 .sidebtm {
   width: 100%;
 }
@@ -1495,6 +1565,9 @@ a:visited,
   .m_recommend_btm .item .msg {
     margin-bottom: 5px;
   }
+  .sidenav_index {
+    padding-bottom: 40px;
+  }
   .m_foot-logo {
     text-align: left;
   }
@@ -1648,6 +1721,10 @@ a:visited,
     width: 100%;
     float: none;
   }
+  .sidenav_index .lst2 li {
+    width: 100%;
+    float: none;
+  }
   .sidebtm {
     position: absolute;
     left: 0;
@@ -1727,6 +1804,16 @@ a:visited,
   }
   .e_banner_slide img {
     height: 433px;
+  }
+  .sidenav_index li {
+    font-size: 1em;
+  }
+  .sidenav_index li:hover:before,
+  .sidenav_index .active:before {
+    top: 9px;
+  }
+  .sidenav_index .lst1 .lk {
+    margin-top: 6px;
   }
   .m_summary {
     height: 246px;
