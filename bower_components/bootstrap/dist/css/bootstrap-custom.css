@@ -445,7 +445,7 @@ a:visited,
   padding-right: 0;
 }
 .e_container_slide {
-  background: #003670;
+  background: #921115;
 }
 .m_slide .slide_big .pic .info,
 .m_slide .slide_group .item .info,
@@ -1406,12 +1406,12 @@ a:visited,
   }
   .e_container_slide,
   .m_slide {
-    background-image: url(../../assets/images/slide-bg2.png);
+    background-image: url(../../assets/images/slide-bg3.png);
     background-position: center center;
     background-repeat: no-repeat;
   }
   .m_slide {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(117, 14, 17, 0.5);
   }
   .m_slide .slide_big {
     width: 520px;
