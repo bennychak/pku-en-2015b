@@ -434,6 +434,11 @@ a:visited,
 .m_logo .c2 a:visited {
   color: #000000;
 }
+.slide-c1,
+.slide-c2 {
+  float: left;
+  width: 100%;
+}
 .e_container_slide,
 .e_container_slide .container {
   padding-left: 0;
@@ -1649,13 +1654,32 @@ a:visited,
   .add-nav {
     display: none;
   }
+  .slide-c1 {
+    width: 64%;
+  }
+  .slide-c2 {
+    width: 36%;
+  }
   .m_slide .slide-c1 {
     display: block;
     float: left;
     width: 210px;
   }
+  .m_slide .slide-c2 {
+    width: auto;
+  }
   .m_slide .slide_group {
     width: 210px;
+  }
+  .e_slide-big .info,
+  .e_slide-small .info {
+    margin-top: 0;
+  }
+  .e_slide-small .info .t {
+    white-space: normal;
+  }
+  .e_slide-small .bd {
+    height: 100px;
   }
   .m_banner {
     height: 145px;

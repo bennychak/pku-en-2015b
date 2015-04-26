@@ -76,6 +76,10 @@
 .m_logo .c2 a:visited{ color:#000}
 
 // slide
+.slide-c1,
+.slide-c2{ float:left; width:100%}
+
+// slide_index
 .e_container_slide,
 .e_container_slide .container{ padding-left:0; padding-right:0}
 .e_container_slide{ background:#003670}
@@ -448,7 +452,12 @@ body{}
 // logo
 .m_logo .c1{ float:left; text-align:left;}
 
+
 // slide
+.slide-c1{}
+.slide-c2{}
+
+// slide_index
 .e_container_slide,
 .e_container_slide .container{ padding-left:9px; padding-right:9px}
 .e_container_slide,
@@ -609,11 +618,22 @@ body{}
 .add-nav{ display:none}
 
 // slide
+.slide-c1{ width:@main;}
+.slide-c2{ width:@side;}
+
+// slide_index
 .m_slide{}
 .m_slide .slide-c1{ display:block; float:left; width:210px}
-.m_slide .slide-c2{}
+.m_slide .slide-c2{ width:auto}
 .m_slide .slide_big{}
 .m_slide .slide_group{ width:210px}
+
+// *set no info
+.e_slide-big .info,
+.e_slide-small .info{ margin-top:0}
+.e_slide-small .info .t{ white-space:normal;}
+
+.e_slide-small .bd{ height:100px}
 
 // banner
 .m_banner{ height:@tabs_h;}
@@ -690,6 +710,8 @@ body{}
 .news-pic{ padding-top:20px}
 
 // slide
+
+// slide_index
 .m_slide{}
 .m_slide .slide-c1{}
 .m_slide .slide-c2{}
@@ -744,6 +766,8 @@ body{}
 .m_tabs{ height:@tabs_h}
 
 .e_tabs_btm{ height:auto}
+
+// slide
 
 // banner
 .m_banner{ height:@tabs_h;}
