@@ -82,7 +82,8 @@
 // slide_index
 .e_container_slide,
 .e_container_slide .container{ padding-left:0; padding-right:0}
-.e_container_slide{ background:#921115}
+.e_container_slide{}
+.n_container_slide_index{ background:#921115}
 
 .m_slide .slide_big .pic .info,
 .m_slide .slide_group .item .info,
@@ -460,14 +461,14 @@ body{}
 // slide_index
 .e_container_slide,
 .e_container_slide .container{ padding-left:9px; padding-right:9px}
-.e_container_slide,
+.n_container_slide_index,
 .m_slide{ background-image:url(../../assets/images/slide-bg3.png); background-position:center center; background-repeat:no-repeat;}
 .e_container_slide{}
 
 .m_slide{ background-color:rgba(117,14,17,.5)}
 .m_slide .slide-c1{}
 .m_slide .slide-c2{}
-.m_slide .slide_big{ width:520px; float:left; margin-bottom:0}
+.m_slide .slide_big{ width:537px; float:left; margin-bottom:0}
 .m_slide .slide_group{ padding-bottom:0}
 .m_slide .slide_group ul{}
 .m_slide .slide_group .item{ float:none; width:100%}
@@ -626,14 +627,7 @@ body{}
 .m_slide .slide-c1{ display:block; float:left; width:210px}
 .m_slide .slide-c2{ width:auto}
 .m_slide .slide_big{}
-.m_slide .slide_group{ width:210px}
-
-// *set no info
-.e_slide-big .info,
-.e_slide-small .info{ margin-top:0}
-.e_slide-small .info .t{ white-space:normal;}
-
-.e_slide-small .bd{ height:100px}
+.m_slide .slide_group{ width:193px}
 
 // banner
 .m_banner{ height:@tabs_h;}
@@ -682,7 +676,7 @@ body{}
 .sidebtm_bd{ margin-left:8px}
 
 // summary
-.m_summary{ height:206px; margin-left:8px; border-left:#808080 8px solid; overflow:hidden}
+.m_summary{ height:206px; margin-left:6px; margin-top:6px; border-left:#808080 8px solid; overflow:hidden}
 
 }
 
@@ -719,8 +713,9 @@ body{}
 .m_slide .slide_big .pic .info{ padding:50px 0 15px; font-size:1em}
 .m_slide .slide_big .pic .info .c1{ padding-right:30px; font-size:1em}
 .m_slide .slide_big .pic .info .c2{ padding-left:22px; font-size:1.125em}
-.m_slide .slide_group .item img{ width:130px; height:128px;}
-.m_slide .slide_group .item .info{ padding-top:50px}
+.m_slide .slide_group{ width:250px}
+.m_slide .slide_group .item img{ width:124px; height:124px;}
+.m_slide .slide_group .item .info{ padding-top:60px}
 
 // recommend
 .m_recommend{}
@@ -769,11 +764,21 @@ body{}
 
 // slide
 
+// slide_index
+.m_slide{}
+.m_slide .slide-c1{}
+.m_slide .slide-c2{}
+.m_slide .slide_big{ width:790px}
+.m_slide .slide_group .item img{ width:144px; height:144px;}
+
 // banner
 .m_banner{ height:@tabs_h;}
 
 .e_banner_slide{ height:auto}
 .e_banner_slide img{ height:475px}
+
+// sidenav_index
+.sidenav_index .lst1 .lk{ margin-top:10px}
 
 // summary
 .m_summary{ height:286px;}
