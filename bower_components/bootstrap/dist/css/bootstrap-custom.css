@@ -1420,6 +1420,8 @@ a:visited,
   }
   .m_slide .slide_group {
     padding-bottom: 0;
+    width: 183px;
+    float: left;
   }
   .m_slide .slide_group .item {
     float: none;
