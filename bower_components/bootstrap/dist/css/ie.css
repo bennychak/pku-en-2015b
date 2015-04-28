@@ -161,7 +161,7 @@ body{}
 /*banner*/
 .m_banner{ height:145px}
 
-.e_banner_slide{}
+.e_banner_slide{ height:auto}
 .e_banner_slide img{ width:100%; height:357px}
 
 /*content-wrap*/
@@ -201,7 +201,7 @@ body{}
 .sidebtm_bd{ margin-left:8px}
 
 /*summary*/
-.m_summary{ height:206px; margin-left:8px; border-left:#808080 8px solid; overflow:hidden}
+.m_summary{ height:206px; margin-left:6px; margin-top:6px; border-left:#808080 8px solid; overflow:hidden}
 
 /* big-screen desktop >= 1200px cascading cover
 ------------------------------------------*/
