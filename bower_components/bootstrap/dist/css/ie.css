@@ -144,12 +144,12 @@ body{}
 .m_slide .slide_group .item .lk{}
 .m_slide .slide_group .item .pic{ position:relative; float:left; overflow:hidden;}
 .m_slide .slide_group .item img{ height:98px; width:100px; display:block; display:inline; zoom:1; vertical-align:top}
-.m_slide .slide_group .item .tx{ position:absolute; width:100%; height:100%; left:100%; top:0; font-size:.875em;
+.m_slide .slide_group .item .tx{ display:none; position:absolute; width:100px; height:98px; left:0; top:0; font-size:.875em;
 	display:block;
 	background:#94070a;
 	background:rgba(148,7,10,.9);
 }
-.m_slide .slide_group .item:hover .tx{}
+.m_slide .slide_group .item:hover .tx{ display:block}
 .m_slide .slide_group .item .info{ position:static; width:auto; padding-top:40px; padding-left:0; background:none; text-align:center;}
 
 .m_slide{}

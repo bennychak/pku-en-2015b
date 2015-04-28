@@ -475,7 +475,7 @@ body{}
 .m_slide .slide_group .item .lk{}
 .m_slide .slide_group .item .pic{ position:relative; float:left; overflow:hidden;}
 .m_slide .slide_group .item img{ height:98px; width:100px; display:block}
-.m_slide .slide_group .item .tx{ position:absolute; width:100%; height:100%; left:100%; top:0; font-size:.875em;
+.m_slide .slide_group .item .tx{ position:absolute; width:100px; height:98px; left:100px; top:0; font-size:.875em;
 	display:block;
 	display:-webkit-box;
 	display:-moz-box;
@@ -496,11 +496,11 @@ body{}
 	transition:all .5s ease-in-out;
 }
 .m_slide .slide_group .item:hover .tx{
-	-webkit-transform:translateX(-100%);
-	-moz-transform:translateX(-100%);
-	-o-transform:translateX(-100%);
-	-ms-transform:translateX(-100%);
-	transform:translateX(-100%);
+	-webkit-transform:translateX(-100px);
+	-moz-transform:translateX(-100px);
+	-o-transform:translateX(-100px);
+	-ms-transform:translateX(-100px);
+	transform:translateX(-100px);
 }
 .m_slide .slide_group .item .info{ position:static; width:auto; padding-top:40px; padding-left:0; background:none; text-align:center;}
 
@@ -716,6 +716,14 @@ body{}
 .m_slide .slide_group{ width:250px}
 .m_slide .slide_group .item img{ width:124px; height:124px;}
 .m_slide .slide_group .item .info{ padding-top:60px}
+.m_slide .slide_group .item .tx{width:124px; height:124px; left:124px}
+.m_slide .slide_group .item:hover .tx{
+	-webkit-transform:translateX(-124px);
+	-moz-transform:translateX(-124px);
+	-o-transform:translateX(-124px);
+	-ms-transform:translateX(-124px);
+	transform:translateX(-124px);
+}
 
 // recommend
 .m_recommend{}
@@ -770,6 +778,14 @@ body{}
 .m_slide .slide-c2{}
 .m_slide .slide_big{ width:790px}
 .m_slide .slide_group .item img{ width:144px; height:144px;}
+.m_slide .slide_group .item .tx{ width:144px; height:144px; left:144px}
+.m_slide .slide_group .item:hover .tx{
+	-webkit-transform:translateX(-144px);
+	-moz-transform:translateX(-144px);
+	-o-transform:translateX(-144px);
+	-ms-transform:translateX(-144px);
+	transform:translateX(-144px);
+}
 
 // banner
 .m_banner{ height:@tabs_h;}
