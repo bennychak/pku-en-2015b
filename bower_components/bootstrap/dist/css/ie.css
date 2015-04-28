@@ -112,7 +112,7 @@ body{}
 
 /*navbar*/
 .navbar{ border-radius:0; background:#000}
-.navbar-nav > li > a{ padding:9px}
+.navbar-nav > li > a{ padding:5px 9px}
 
 .navbar-form{ margin-top:0; margin-bottom:0}
 
@@ -235,7 +235,7 @@ body{}
 
 .pagination{ *display:inline; *zoom:1;}
 
-.e_input_search{ *width:104px; *height:26px}
+.e_input_search{ *width:104px; *height:18px}
 .m_tabs .item{ width:49%}
 .m_recommend .item .tit{ *height:47px}
 .gateways_item .col-xs-18{ *width:94px;}
