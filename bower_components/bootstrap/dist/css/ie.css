@@ -143,7 +143,7 @@ body{}
 .m_slide .slide_group .item{ float:none; width:100%}
 .m_slide .slide_group .item .lk{}
 .m_slide .slide_group .item .pic{ position:relative; float:left; overflow:hidden;}
-.m_slide .slide_group .item img{ height:98px; width:100px; display:block; display:inline; zoom:1; vertical-align:top}
+.m_slide .slide_group .item img{ height:98px; width:100px; max-width:100px; display:block; display:inline; zoom:1; vertical-align:top}
 .m_slide .slide_group .item .tx{ display:none; position:absolute; width:100px; height:98px; left:0; top:0; font-size:.875em;
 	background:#94070a;
 	background:rgba(148,7,10,.9);
