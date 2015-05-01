@@ -1105,6 +1105,9 @@ a:visited,
   color: #808080;
   *zoom: 1;
 }
+.main .topinfo .c2 .tit {
+  white-space: nowrap;
+}
 .msgList,
 .msgList li {
   list-style: none;
