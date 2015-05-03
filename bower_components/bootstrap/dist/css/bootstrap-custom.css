@@ -1,6 +1,9 @@
 body {
   font-size: 16px;
 }
+img {
+  max-width: 100%;
+}
 .clearfix:after,
 .headline:after,
 .content-wrap:after {
@@ -870,6 +873,12 @@ a:visited,
 }
 .m_recommend .item .dock-msg .msg {
   padding: 15px 19px 0;
+  color: #ffffff;
+}
+.m_recommend .item .dock-msg .msg a:link,
+.m_recommend .item .dock-msg .msg a:hover,
+.m_recommend .item .dock-msg .msg a:active,
+.m_recommend .item .dock-msg .msg a:visited {
   color: #ffffff;
 }
 .m_recommend_btm {
