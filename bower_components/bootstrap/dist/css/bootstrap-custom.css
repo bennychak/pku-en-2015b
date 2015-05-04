@@ -1347,6 +1347,9 @@ a:visited,
   position: relative;
   padding: 10px 0;
 }
+.msgDetail section .con img {
+  height: auto !important;
+}
 .msgDetail section .bor {
   display: none;
   position: absolute;
